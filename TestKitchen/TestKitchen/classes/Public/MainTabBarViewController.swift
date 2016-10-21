@@ -84,6 +84,10 @@ class MainTabBarViewController: UITabBarController {
                 make.left.bottom.right.equalTo(btn)
                 make.height.equalTo(15)
             })
+            if i == 0 {
+                btn.selected = true
+                selectedIndex = i
+            }
         }
         
     }
