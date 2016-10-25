@@ -5,6 +5,7 @@ use_frameworks!
 target 'TestKitchen' do
   pod 'Alamofire'
   pod 'Kingfisher','~>2.6'
-  pod 'MJRefresh'
+  pod 'XWSwiftRefresh','~>0.1.9'
   pod 'SnapKit','~>0.22.0'
+  pod 'SwiftyJSON','~>2.3.2'
 end

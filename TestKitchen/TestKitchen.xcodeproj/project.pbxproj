@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0BB3EE4BFEAF2D94F933E0DC /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00958E831F9E7F01896BE8CE /* Pods_TestKitchen.framework */; };
+		BC0012331DBD9BE700E5C72A /* Controllers.json in Resources */ = {isa = PBXBuildFile; fileRef = BC0012321DBD9BE700E5C72A /* Controllers.json */; };
+		BC0012351DBDACD800E5C72A /* KTCDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0012341DBDACD800E5C72A /* KTCDownload.swift */; };
+		BC0012371DBDB6CC00E5C72A /* IngreRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0012361DBDB6CC00E5C72A /* IngreRecommend.swift */; };
 		BC183C381DB9A50E008A7A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC183C371DB9A50E008A7A73 /* AppDelegate.swift */; };
 		BC183C3A1DB9A50E008A7A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC183C391DB9A50E008A7A73 /* ViewController.swift */; };
 		BC183C3D1DB9A50E008A7A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC183C3B1DB9A50E008A7A73 /* Main.storyboard */; };
@@ -46,6 +49,12 @@
 		BC183D0F1DB9BA21008A7A73 /* UILabel+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC183D0E1DB9BA21008A7A73 /* UILabel+Common.swift */; };
 		BC183D111DB9BB9A008A7A73 /* UIButton+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC183D101DB9BB9A008A7A73 /* UIButton+Common.swift */; };
 		BC183D131DB9C38A008A7A73 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC183D121DB9C38A008A7A73 /* Const.swift */; };
+		BCFDADE61DBEED4A00D79102 /* IngreRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDADE51DBEED4A00D79102 /* IngreRecommendView.swift */; };
+		BCFDADE91DBEF38D00D79102 /* IngreBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDADE71DBEF38D00D79102 /* IngreBannerCell.swift */; };
+		BCFDADEA1DBEF38D00D79102 /* IngreBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFDADE81DBEF38D00D79102 /* IngreBannerCell.xib */; };
+		BCFDADEC1DBEF82B00D79102 /* sdefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BCFDADEB1DBEF82B00D79102 /* sdefaultImage.png */; };
+		BCFDADEF1DBF09E700D79102 /* IngreLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFDADED1DBF09E700D79102 /* IngreLikeCell.swift */; };
+		BCFDADF01DBF09E700D79102 /* IngreLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFDADEE1DBF09E700D79102 /* IngreLikeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,9 @@
 		00958E831F9E7F01896BE8CE /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B91EA108D71AD27E19C2B0F /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
 		41F1EEF3C764AC0F52EE94C5 /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0012321DBD9BE700E5C72A /* Controllers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Controllers.json; sourceTree = "<group>"; };
+		BC0012341DBDACD800E5C72A /* KTCDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownload.swift; sourceTree = "<group>"; };
+		BC0012361DBDB6CC00E5C72A /* IngreRecommend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommend.swift; sourceTree = "<group>"; };
 		BC183C341DB9A50E008A7A73 /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC183C371DB9A50E008A7A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC183C391DB9A50E008A7A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +125,12 @@
 		BC183D0E1DB9BA21008A7A73 /* UILabel+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Common.swift"; sourceTree = "<group>"; };
 		BC183D101DB9BB9A008A7A73 /* UIButton+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Common.swift"; sourceTree = "<group>"; };
 		BC183D121DB9C38A008A7A73 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		BCFDADE51DBEED4A00D79102 /* IngreRecommendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommendView.swift; sourceTree = "<group>"; };
+		BCFDADE71DBEF38D00D79102 /* IngreBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreBannerCell.swift; sourceTree = "<group>"; };
+		BCFDADE81DBEF38D00D79102 /* IngreBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreBannerCell.xib; sourceTree = "<group>"; };
+		BCFDADEB1DBEF82B00D79102 /* sdefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdefaultImage.png; sourceTree = "<group>"; };
+		BCFDADED1DBF09E700D79102 /* IngreLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeCell.swift; sourceTree = "<group>"; };
+		BCFDADEE1DBF09E700D79102 /* IngreLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreLikeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +387,7 @@
 		BC183CB81DB9AA82008A7A73 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				BC0012361DBDB6CC00E5C72A /* IngreRecommend.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -376,6 +395,7 @@
 		BC183CB91DB9AA82008A7A73 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BCFDADE51DBEED4A00D79102 /* IngreRecommendView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -438,6 +458,10 @@
 		BC183CC11DB9AA82008A7A73 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				BCFDADE71DBEF38D00D79102 /* IngreBannerCell.swift */,
+				BCFDADE81DBEF38D00D79102 /* IngreBannerCell.xib */,
+				BCFDADED1DBF09E700D79102 /* IngreLikeCell.swift */,
+				BCFDADEE1DBF09E700D79102 /* IngreLikeCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -531,6 +555,8 @@
 				BC183D0E1DB9BA21008A7A73 /* UILabel+Common.swift */,
 				BC183D101DB9BB9A008A7A73 /* UIButton+Common.swift */,
 				BC183D121DB9C38A008A7A73 /* Const.swift */,
+				BC0012321DBD9BE700E5C72A /* Controllers.json */,
+				BC0012341DBDACD800E5C72A /* KTCDownload.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -588,6 +614,7 @@
 		BC183CF11DB9AF81008A7A73 /* 公共 */ = {
 			isa = PBXGroup;
 			children = (
+				BCFDADEB1DBEF82B00D79102 /* sdefaultImage.png */,
 			);
 			path = "公共";
 			sourceTree = "<group>";
@@ -747,7 +774,9 @@
 				BC183D031DB9AF81008A7A73 /* mine_select@3x.png in Resources */,
 				BC183D021DB9AF81008A7A73 /* mine_select@2x.png in Resources */,
 				BC183D061DB9AF81008A7A73 /* shike_select@2x.png in Resources */,
+				BCFDADF01DBF09E700D79102 /* IngreLikeCell.xib in Resources */,
 				BC183D071DB9AF81008A7A73 /* shike_select@3x.png in Resources */,
+				BC0012331DBD9BE700E5C72A /* Controllers.json in Resources */,
 				BC183CF81DB9AF81008A7A73 /* community_normal@2x.png in Resources */,
 				BC183D001DB9AF81008A7A73 /* mine_normal@2x.png in Resources */,
 				BC183CFD1DB9AF81008A7A73 /* home_normal@3x.png in Resources */,
@@ -755,8 +784,10 @@
 				BC183D0B1DB9AF81008A7A73 /* shop_select@3x.png in Resources */,
 				BC183CFF1DB9AF81008A7A73 /* home_select@3x.png in Resources */,
 				BC183C3F1DB9A50E008A7A73 /* Assets.xcassets in Resources */,
+				BCFDADEC1DBEF82B00D79102 /* sdefaultImage.png in Resources */,
 				BC183D011DB9AF81008A7A73 /* mine_normal@3x.png in Resources */,
 				BC183CF91DB9AF81008A7A73 /* community_normal@3x.png in Resources */,
+				BCFDADEA1DBEF38D00D79102 /* IngreBannerCell.xib in Resources */,
 				BC183D091DB9AF81008A7A73 /* shop_normal@3x.png in Resources */,
 				BC183D0A1DB9AF81008A7A73 /* shop_select@2x.png in Resources */,
 				BC183D041DB9AF81008A7A73 /* shike_normal@2x.png in Resources */,
@@ -837,16 +868,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC183C3A1DB9A50E008A7A73 /* ViewController.swift in Sources */,
+				BCFDADE91DBEF38D00D79102 /* IngreBannerCell.swift in Sources */,
 				BC183D0D1DB9B97A008A7A73 /* UIView+Common.swift in Sources */,
 				BC183CD01DB9AA82008A7A73 /* BaseViewController.swift in Sources */,
 				BC183CCF1DB9AA82008A7A73 /* IngredientViewController.swift in Sources */,
 				BC183D0F1DB9BA21008A7A73 /* UILabel+Common.swift in Sources */,
+				BC0012371DBDB6CC00E5C72A /* IngreRecommend.swift in Sources */,
 				BC183CDA1DB9AB83008A7A73 /* MainTabBarViewController.swift in Sources */,
+				BC0012351DBDACD800E5C72A /* KTCDownload.swift in Sources */,
 				BC183CD41DB9AAB5008A7A73 /* FoodClassViewController.swift in Sources */,
 				BC183CD61DB9AACB008A7A73 /* MallViewController.swift in Sources */,
 				BC183CD21DB9AAA4008A7A73 /* CommunityViewController.swift in Sources */,
+				BCFDADEF1DBF09E700D79102 /* IngreLikeCell.swift in Sources */,
 				BC183CD81DB9AAE1008A7A73 /* ProfileViewController.swift in Sources */,
 				BC183D111DB9BB9A008A7A73 /* UIButton+Common.swift in Sources */,
+				BCFDADE61DBEED4A00D79102 /* IngreRecommendView.swift in Sources */,
 				BC183C381DB9A50E008A7A73 /* AppDelegate.swift in Sources */,
 				BC183D131DB9C38A008A7A73 /* Const.swift in Sources */,
 			);
@@ -991,6 +1027,7 @@
 			baseConfigurationReference = 41F1EEF3C764AC0F52EE94C5 /* Pods-TestKitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen";
@@ -1003,6 +1040,7 @@
 			baseConfigurationReference = 3B91EA108D71AD27E19C2B0F /* Pods-TestKitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen";
